@@ -52,13 +52,13 @@ function song(){
 
     	for(var n = 0; n < 5; n++){
     		for (var i = 0; i < results[n].artists.length; i ++){
-    			var songData "= =============================================" + "\n" +
+    			var songData = "==============================================" + "\n" +
 		 	    			"Artist(s): " + results[n].artists[i].name + "\n" +
 		 	    			"Name of Song: " + results[n].name + "\n" +
 		 	    			"Preview: " + results[n].preview_url + "\n" +
 		 	    			"Album: " + results[n].album.name  + "\n";
-		 	    console.log(songData);
-		 	    writeLog(songData);
+		 	    console.log(songResults);
+		 	    writeLog(songResults);
  	    	}
  		}
 	});
